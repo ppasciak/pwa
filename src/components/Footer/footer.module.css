@@ -1,0 +1,4 @@
+.root {
+    composes: bg-brand-dark from global;
+    composes: text-white from global;
+}
