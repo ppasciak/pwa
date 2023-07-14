@@ -2,3 +2,12 @@
     composes: bg-brand-dark from global;
     composes: text-white from global;
 }
+
+.linkGroup {
+    composes: col-span-3 from global;
+    composes: content-start from global;
+    composes: gap-xs from global;
+    composes: grid from global;
+
+    composes: xs_col-span-3 from global;
+}

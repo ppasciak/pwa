@@ -1,0 +1,10 @@
+.image {
+    composes: max-w-xl from global;
+    composes: w-full from global;
+}
+
+.wrapper {
+    composes: p-xs from global;
+    composes: flex from global;
+    composes: justify-end from global;
+}

@@ -37,6 +37,7 @@ const config = {
             colors: {
                 brand: {
                     dark: '#8f46d9',
+                    darkest: '#751dcf'
                 }
             },
         }
