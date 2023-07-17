@@ -24,6 +24,7 @@
     composes: top-16 from global;
     composes: left-0 from global;
     composes: w-full from global;
+    composes: mt-2 from global;
 
     composes: z-dropdown from global;
 

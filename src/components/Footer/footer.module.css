@@ -2,6 +2,10 @@
     composes: bg-brand-dark from global;
     composes: text-white from global;
 }
+.links {
+    composes: links from '~@magento/venia-ui/lib/components/Footer/footer.module.css';
+    composes: mb-2 from global;
+}
 
 .linkGroup {
     composes: col-span-3 from global;
@@ -10,4 +14,9 @@
     composes: grid from global;
 
     composes: xs_col-span-3 from global;
+}
+
+.branding {
+    composes: branding from '~@magento/venia-ui/lib/components/Footer/footer.module.css';
+    composes: bg-brand-darkest from global;
 }
