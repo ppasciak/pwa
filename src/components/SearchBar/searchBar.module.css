@@ -6,8 +6,8 @@
     composes: px-xs from global;
     composes: py-0 from global;
     composes: w-full from global;
-    composes: col-start-3 from global;
-    composes: col-end-8 from global;
+    composes: col-start-4 from global;
+    composes: col-end-10 from global;
     composes: row-start-1 from global;
     composes: row-end-1 from global;
 

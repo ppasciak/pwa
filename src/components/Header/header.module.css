@@ -1,3 +1,28 @@
+.root {
+    composes: auto-cols-fr from global;
+    composes: bg-header from global;
+    composes: grid from global;
+    composes: h-auto from global;
+    composes: justify-center from global;
+    composes: px-4 from global;
+    composes: top-0 from global;
+    composes: sticky from global;
+    composes: w-full from global;
+    composes: z-header from global;
+    composes: shadow from global;
+
+    composes: lg_px-8 from global;
+    composes: backdrop-blur from global;
+}
+
+.open {
+    composes: root;
+}
+
+.closed {
+    composes: root;
+}
+
 .toolbar {
     composes: border-0 from global;
     composes: content-center from global;

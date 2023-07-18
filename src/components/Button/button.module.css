@@ -1,0 +1,49 @@
+.root {
+    composes: border-2 from global;
+    composes: border-solid from global;
+    composes: cursor-pointer from global;
+    composes: font-bold from global;
+    composes: inline-flex from global;
+    composes: items-center from global;
+    composes: justify-center from global;
+    composes: leading-tight from global;
+    composes: max-w-full from global;
+    composes: min-w-[10rem] from global;
+    composes: outline-none from global;
+    composes: pointer-events-auto from global;
+    composes: px-sm from global;
+    composes: rounded-sm from global;
+    composes: text-center from global;
+    composes: text-sm from global;
+    composes: uppercase from global;
+    padding-top: calc(0.5rem + 1px); /* TODO @TW: review */
+    padding-bottom: calc(0.5rem - 1px); /* TODO @TW: review */
+    min-height: 2.5rem;
+    transition-duration: 256ms;
+    transition-property: background-color, border-color, color;
+    transition-timing-function: var(--venia-global-anim-standard);
+
+    composes: disabled_bg-gray-400 from global;
+    composes: disabled_border-gray-400 from global;
+    composes: disabled_opacity-50 from global;
+    composes: disabled_pointer-events-none from global;
+    composes: disabled_text-white from global;
+
+    composes: focus_shadow-inputFocus from global;
+}
+
+.root_highPriority {
+    composes: root;
+
+    composes: bg-brand-dark from global;
+    composes: border-brand-dark from global;
+    composes: text-white from global;
+
+    composes: active_bg-brand-darkest from global;
+    composes: active_border-brand-darkest from global;
+    composes: active_text-white from global;
+
+    composes: hover_bg-white from global;
+    composes: hover_border-brand-darkest from global;
+    composes: hover_text-brand-darkest from global;
+}

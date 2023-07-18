@@ -37,9 +37,20 @@ const config = {
             colors: {
                 brand: {
                     dark: '#8f46d9',
-                    darkest: '#751dcf'
+                    darkest: '#751dcf',
+                    100: '#c899f7',
+                    400: '#ac7ade',
+                    600: '#a262e3',
+                    700: '#8c4fc9',
+                    800: '#55208a'
                 }
             },
+            backgroundColor: {
+                header: 'rgba(255,255,255,0.5)'
+            },
+            boxShadow: theme => ({
+                headerTrigger: `0 4px ${theme('colors.brand.darkest')}`,
+            })
         }
     }
 };
