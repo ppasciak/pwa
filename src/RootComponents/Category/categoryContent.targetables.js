@@ -10,7 +10,9 @@ const interceptComponent = CategoryContent => {
             'image,\n'
         )
         .insertBeforeSource('const categoryDescriptionElement', imageCode)
-        .insertBeforeSource('<StoreTitle>{categoryName}</StoreTitle>\n', '{categoryImageElement}\n')
+        .insertAfterSource('{categoryDescriptionElement}\n', '{categoryImageElement}\n')
+        .insertAfterSource('<div className={classes.categoryHeader}>\n', '<div className={classes.titleWrapper}>')
+        .insertAfterSource('{categoryDescriptionElement}', '</div>')
 };
 
 exports.interceptComponent = interceptComponent;

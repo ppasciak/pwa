@@ -1,0 +1,21 @@
+.categoryHeader{
+    composes: flex from global;
+    composes: lg_flex-row from global;
+    composes: flex-col from global;
+    composes: justify-between from global;
+    composes: p-4 from global;
+    composes: bg-gray-100 from global;
+    composes: rounded-lg from global;
+    composes: mb-4 from global;
+    composes: shadow-md from global;
+}
+
+.categoryTitle {
+    composes: font-bold from global;
+    composes: leading-snug from global;
+    composes: pb-xs from global;
+    composes: text-brand-darkest from global;
+    composes: text-center from global;
+    composes: text-xl from global;
+    composes: lg_text-2xl from global;
+}

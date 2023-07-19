@@ -1,0 +1,8 @@
+.blocks {
+    composes: blocks from '~@magento/venia-ui/lib/components/FilterModal/filterModal.module.css';
+}
+
+/* TODO @TW: cannot compose */
+.blocks > li:last-child {
+    border-bottom: none;
+}

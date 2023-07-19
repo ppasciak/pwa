@@ -1,0 +1,24 @@
+.root {
+    composes: rounded-md from global;
+    composes: bg-gray-100 from global;
+    composes: p-2 from global;
+    composes: mb-4 from global;
+    composes: shadow-md from global;
+}
+
+.trigger {
+    composes: block from global;
+    composes: bg-white from global;
+    composes: rounded-md from global;
+    composes: w-full from global;
+    composes: px-2 from global;
+}
+
+.list {
+    composes: p-2 from global;
+}
+
+.name {
+    composes: text-left from global;
+    composes: font-semibold from global;
+}

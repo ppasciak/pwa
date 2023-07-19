@@ -1,6 +1,7 @@
 .image {
     composes: max-w-xl from global;
     composes: w-full from global;
+    composes: rounded-lg from global;
 }
 
 .wrapper {

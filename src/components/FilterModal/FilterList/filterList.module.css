@@ -1,0 +1,6 @@
+.items {
+    composes: gap-3 from global;
+    composes: grid from global;
+    composes: -ml-1.5 from global;
+    grid-template-columns: 100%;
+}
