@@ -50,6 +50,8 @@ const config = {
             },
             boxShadow: theme => ({
                 headerTrigger: `0 4px ${theme('colors.brand.darkest')}`,
+                inputFocus: 'none',
+                radioFocus: 'none',
             })
         }
     }

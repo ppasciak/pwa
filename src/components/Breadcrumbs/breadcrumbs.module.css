@@ -1,0 +1,9 @@
+.link {
+    composes: link from '~@magento/venia-ui/lib/components/Breadcrumbs/breadcrumbs.module.css';
+    composes: text-gray-500 from global;
+}
+
+.currentCategory {
+    composes: currentCategory from '~@magento/venia-ui/lib/components/Breadcrumbs/breadcrumbs.module.css';
+    composes: text-brand-darkest from global;
+}
