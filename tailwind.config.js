@@ -49,7 +49,7 @@ const config = {
                 header: 'rgba(255,255,255,0.5)'
             },
             boxShadow: theme => ({
-                headerTrigger: `0 4px ${theme('colors.brand.darkest')}`,
+                headerTrigger: `none`,
                 inputFocus: 'none',
                 radioFocus: 'none',
             })

@@ -1,3 +1,16 @@
 .label {
     composes: hidden from global;
 }
+
+.root {
+    composes: trigger from './cartTrigger.module.css';
+}
+
+.open {
+    composes: trigger from './cartTrigger.module.css';
+    composes: bg-brand-darkest from global;
+}
+
+.open svg {
+    stroke: white
+}

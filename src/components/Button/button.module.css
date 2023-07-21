@@ -47,3 +47,17 @@
     composes: hover_border-brand-darkest from global;
     composes: hover_text-brand-darkest from global;
 }
+
+.root_normalPriority {
+    composes: root;
+
+    composes: bg-transparent from global;
+    composes: border-brand-dark from global;
+    composes: text-brand-dark from global;
+
+    composes: active_border-brand-darkest from global;
+    composes: active_text-brand-darkest from global;
+
+    composes: hover_border-brand-darkest from global;
+    composes: hover_text-brand-darkest from global;
+}
