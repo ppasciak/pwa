@@ -1,4 +1,5 @@
 .trigger {
     composes: trigger from '~@magento/venia-ui/lib/components/Header/accountTrigger.module.css';
     composes: trigger from './cartTrigger.module.css';
+    composes: ml-1 from global;
 }

@@ -1,0 +1,10 @@
+.checkoutButton {
+    composes: root_highPriority from '../Button/button.module.css';
+
+    composes: bg-brand-dark from global;
+    composes: border-0 from global;
+    composes: font-bold from global;
+    composes: m-auto from global;
+    composes: w-[10rem] from global;
+    grid-column: 1 / span 1;
+}

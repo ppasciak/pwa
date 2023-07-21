@@ -1,0 +1,27 @@
+.root {
+    composes: border from global;
+    composes: border-solid from global;
+    composes: border-strong from global;
+    composes: h-[0.875rem] from global;
+    composes: rounded-full from global;
+    composes: w-[0.875rem] from global;
+    box-shadow: 0 0 0 1px #ffffff;
+
+    composes: lg_h-auto from global;
+    composes: lg_rounded-sm from global;
+    composes: lg_w-auto from global;
+}
+
+.rootSelected {
+    composes: root;
+
+    composes: bg-brand-darkest from global;
+}
+
+@media (min-width: 960px) {
+    .rootSelected {
+        composes: root;
+        composes: lg_border-2 from global;
+        composes: lg_border-brand-darkest from global;
+    }
+}

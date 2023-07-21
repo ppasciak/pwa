@@ -1,0 +1,30 @@
+.previousButton,
+.nextButton {
+    composes: flex from global;
+    composes: outline-none from global;
+    composes: z-foreground from global;
+}
+
+.previousButton {
+    composes: justify-start from global;
+    composes: ml-sm from global;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.nextButton {
+    composes: justify-end from global;
+    composes: mr-sm from global;
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.chevron {
+    composes: chevron from '~@magento/venia-ui/lib/components/ProductImageCarousel/carousel.module.css';
+    composes: bg-brand-100/50 from global;
+    composes: rounded-full from global;
+    composes: shadow-md from global;
+    composes: shadow-white from global;
+}
+
+.chevron svg {
+    stroke: white
+}
