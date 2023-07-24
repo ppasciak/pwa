@@ -2,3 +2,4 @@
     composes: buttonsContainer from '~@magento/venia-ui/lib/components/SignIn/signIn.module.css';
     composes: grid-cols-2 from global;
 }
+
