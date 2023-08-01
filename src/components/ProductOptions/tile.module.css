@@ -1,0 +1,13 @@
+.root {
+    composes: root from '~@magento/venia-ui/lib/components/clickable.module.css';
+
+    composes: border from global;
+    composes: border-solid from global;
+    composes: border-strong from global;
+    composes: h-[2rem] from global;
+    composes: min-w-[2rem] from global;
+    composes: px-3xs from global;
+    composes: py-0 from global;
+    composes: rounded-sm from global;
+    position: relative;
+}

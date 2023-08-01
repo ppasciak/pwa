@@ -1,0 +1,53 @@
+.section {
+    composes: my-0 from global;
+    composes: mx-sm from global;
+    composes: px-0 from global;
+    composes: py-xs from global;
+}
+
+.actions {
+    composes: gap-y-sm from global;
+    composes: flex from global;
+    composes: flex-col from global;
+    composes: justify-center from global;
+    composes: items-center from global;
+    composes: section;
+    grid-area: cart;
+    composes: bg-gray-100 from global;
+    composes: rounded-b-lg from global;
+    composes: mb-2 from global;
+
+    composes: lg_justify-around from global;
+    composes: lg_flex-row from global;
+    composes: lg_border-b-0 from global;
+}
+
+.options {
+    grid-area: options;
+    composes: bg-gray-100 from global;
+    composes: mx-sm from global;
+    composes: rounded-t-lg from global;
+}
+
+.quantity {
+    composes: border-solid from global;
+    composes: border-subtle from global;
+    composes: my-0 from global;
+    composes: mx-sm from global;
+    composes: px-sm from global;
+    composes: py-xs from global;
+    grid-area: quantity;
+    composes: bg-gray-100 from global;
+}
+
+.title {
+    composes: gap-2 from global;
+    composes: grid from global;
+    composes: items-center from global;
+    composes: leading-normal from global;
+    composes: px-sm from global;
+    composes: py-xs from global;
+    grid-area: title;
+}
+
+.actButton {}

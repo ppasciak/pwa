@@ -1,0 +1,11 @@
+/* TODO @TW: review. This relies on custom prop to set color from JSX "style" prop. */
+.root {
+    --venia-swatch-bg: var(--venia-global-color-gray-100);
+
+    composes: root from './tile.module.css';
+
+    composes: border-shaded-10 from global;
+    composes: text-white from global;
+    composes: w-[2rem] from global;
+    background: var(--venia-swatch-bg);
+}
